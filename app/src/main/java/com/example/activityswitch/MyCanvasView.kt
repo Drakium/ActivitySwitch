@@ -286,6 +286,11 @@ class MyCanvasView(context: Context) : View(context) {
         canvas.drawRect((colorWidth)*7 - 25F, (drawArea*39), (colorWidth)*7 + 25F, (drawArea*39)- 50F, paintBlack)
     }
 
+    fun restartColors(){
+        println("Test")
+
+    }
+
     override fun onTouchEvent(event: MotionEvent): Boolean {
         motionTouchEventX = event.x
         motionTouchEventY = event.y
